@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1_ControleXF.Controles.ImagePage">
+    <ContentPage.Content>
+        <StackLayout x:Name="Container">
+            <!--Resouce, Local, Internet-->
+            <Image 
+                Source="https://i1.wp.com/cidadegamer.com.br/wp-content/uploads/2012/07/Logo-Ubisoft1.jpg"
+                Aspect="Fill"
+                VerticalOptions="FillAndExpand"
+                IsOpaque="False"
+                x:Name="ImageOne"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -21,8 +21,6 @@ namespace App01_ConsultarCEP
 
         private void BuscarCEP(object sender, EventArgs args)
         {
-            //TODO - Validações.
-
             string cep = CEP.Text.Trim();
 
             if (isValidCEP(cep))
